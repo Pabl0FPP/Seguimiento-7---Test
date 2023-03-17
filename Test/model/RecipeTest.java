@@ -54,7 +54,10 @@ public class RecipeTest {
         setupStage2();
 
         //Act
+        recipe.addIngredient(new Ingredient("Ajo", 21));
 
+        assertTrue(recipe.getLast().getName().equals("Ajo"));
+        assertEquals(recipe.getLast().getWeight(),79);
     }
 
     @Test

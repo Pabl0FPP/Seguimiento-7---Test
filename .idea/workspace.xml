@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82c88b65-01d4-47f3-900c-4144883a44d1" name="Changes" comment="commit con 3 test de RecipeTest funcionando">
+    <list default="true" id="82c88b65-01d4-47f3-900c-4144883a44d1" name="Changes" comment="commit con 3 test de RecipeTest funcionando y 2 test de IngredientTest funcionando">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/model/RecipeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/model/RecipeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Ingredient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,7 @@
       <recent name="model" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.IngredientTest.removeWeight">
+  <component name="RunManager" selected="TestNG.IngredientTest.addWeightTest1">
     <configuration name="IngredientTest.addWeightTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Seguimiento 7 - Testing" />
       <extension name="coverage">
@@ -68,6 +70,24 @@
       <option name="PACKAGE_NAME" value="model" />
       <option name="MAIN_CLASS_NAME" value="model.IngredientTest" />
       <option name="METHOD_NAME" value="addWeightTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IngredientTest.addWeightTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Seguimiento 7 - Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.IngredientTest" />
+      <option name="METHOD_NAME" value="addWeightTest1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -93,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecipeTest.addIngredientTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="IngredientTest.removeWeight1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Seguimiento 7 - Testing" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +122,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.RecipeTest" />
-      <option name="METHOD_NAME" value="addIngredientTest" />
+      <option name="MAIN_CLASS_NAME" value="model.IngredientTest" />
+      <option name="METHOD_NAME" value="removeWeight1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecipeTest.addIngredientTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RecipeTest.addIngredientTest2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Seguimiento 7 - Testing" />
       <extension name="coverage">
         <pattern>
@@ -121,25 +141,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="model" />
       <option name="MAIN_CLASS_NAME" value="model.RecipeTest" />
-      <option name="METHOD_NAME" value="addIngredientTest1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecipeTest.removeIngredient" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Seguimiento 7 - Testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.RecipeTest" />
-      <option name="METHOD_NAME" value="removeIngredient" />
+      <option name="METHOD_NAME" value="addIngredientTest2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.IngredientTest.addWeightTest1" />
+        <item itemvalue="TestNG.IngredientTest.removeWeight1" />
+        <item itemvalue="TestNG.RecipeTest.addIngredientTest2" />
         <item itemvalue="TestNG.IngredientTest.removeWeight" />
         <item itemvalue="TestNG.IngredientTest.addWeightTest" />
-        <item itemvalue="TestNG.RecipeTest.removeIngredient" />
-        <item itemvalue="TestNG.RecipeTest.addIngredientTest1" />
-        <item itemvalue="TestNG.RecipeTest.addIngredientTest" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +167,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679062034450</updated>
-      <workItem from="1679062038441" duration="6505000" />
+      <workItem from="1679062038441" duration="7618000" />
     </task>
     <task id="LOCAL-00001" summary="commit con 3 test de RecipeTest funcionando">
       <created>1679068043646</created>
@@ -174,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679068043647</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit con 3 test de RecipeTest funcionando y 2 test de IngredientTest funcionando">
+      <created>1679068673783</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679068673783</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit con 3 test de RecipeTest funcionando y 2 test de IngredientTest funcionando">
+      <created>1679068885130</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679068885130</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +209,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit con 3 test de RecipeTest funcionando" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit con 3 test de RecipeTest funcionando" />
+    <MESSAGE value="commit con 3 test de RecipeTest funcionando y 2 test de IngredientTest funcionando" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit con 3 test de RecipeTest funcionando y 2 test de IngredientTest funcionando" />
   </component>
 </project>

@@ -1,8 +1,10 @@
 package model;
 
+import exceptions.NegativeWeightException;
 import org.testng.annotations.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class IngredientTest {
 
@@ -31,8 +33,8 @@ public class IngredientTest {
         //Arrange
         setupStage1();
         //Act
-
-        //Assert
+        assertThrows(NegativeWeightException.class,()->ingredient.addWeight(-100));
+        assertEquals(245, ingredient.getWeight());
 
 
     }
@@ -54,8 +56,8 @@ public class IngredientTest {
         //Arrange
         setupStage1();
         //Act
-
-        //Assert
+        assertThrows(NegativeWeightException.class,()->ingredient.removeWeight(-100));
+        assertEquals(245, ingredient.getWeight());
 
     }
 }
